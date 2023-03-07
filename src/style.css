@@ -63,11 +63,12 @@
     height: 140px;
     border-radius: 8px;
     display: grid;
-    grid-template-columns: repeat(4, 170px);
+    grid-template-columns: repeat(4, 150px);
     justify-content: space-between;
     align-items: center;
 }
 
 .main h2 {
     font-size: 20px;
+    margin-left: 40px;
 }

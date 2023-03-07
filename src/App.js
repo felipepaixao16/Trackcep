@@ -13,7 +13,6 @@ function App() {
         </div>
 
         <div className="main">
-          
           <h2>CEP: 41380-250</h2>
           <span>Rua Teste alguma</span>
           <span>Valéria</span>
