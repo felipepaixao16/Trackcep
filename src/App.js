@@ -1,7 +1,11 @@
+import { useState} from 'react';
 import { FiSearch }  from 'react-icons/fi';
 import './style.css'; 
 
 function App() {
+
+  const [input, setInput] = useState('TESTE 123')
+
   return (
     <div className="container">
       <div className="topo">
