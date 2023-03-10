@@ -2,7 +2,6 @@ import { useState} from 'react';
 import { FiSearch }  from 'react-icons/fi';
 import './style.css'; 
 import api from './services/api';
-import maps from './services/maps';
 
 function App() {
 
@@ -38,7 +37,7 @@ function App() {
         </div>
 
         <div className="main">
-          <span><h2>CEP</h2> {cep.cep}</span>
+          <span className="cep"><h2>CEP</h2> {cep.cep}</span>
           <span><h2>Rua</h2> {cep.logradouro}</span>
           <span><h2>Bairro</h2> {cep.bairro}</span>
           <span><h2>Cidade  -  UF</h2> {cep.localidade} - {cep.uf}</span>

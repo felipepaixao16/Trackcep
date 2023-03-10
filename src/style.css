@@ -82,37 +82,56 @@
     margin-bottom: 20px;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 700px) {
     .container {
         width: 100%;
         margin: 0;
+        padding: 0;
+    }
+
+    .title {
+        margin-bottom: 6vh;
     }
     .containerInput {
-        margin-left: 70%;
-        position: relative;
+        width: 50%;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 0 auto;
+
+
+    }
+    .containerInput input {
+        background-color: transparent;
+        font-size: 20px;
+        color: #111;
+        outline: none;
+        margin-right: 0;
+
     }
     .buttonSearch {
-        position: absolute;
-    }
-    .topo {
-        align-items: center;
-    }
-    .title {
-        font-size: 25px;
-    }
-    .main h2 {
-        font-size: 28px;
+        background-color: transparent;
+        cursor: pointer;
+        transition: transform 0.5s;
+        margin-left: -12vh;
     }
     .main {
-        margin-left: 25%;
-        width: 50%;
-        min-height: 250px;
-        justify-content: center;
-        align-items: center;
+        width: 80%;
+        height: 300px;
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 8vh;
+    }
+    .main h2 {
+        margin-bottom: 5px;
+    }
+    .main span {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .main .cep {
+        margin-top: 5px;
     }
 }
