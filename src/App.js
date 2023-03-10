@@ -43,7 +43,6 @@ function App() {
           <span><h2>Cidade  -  UF</h2> {cep.localidade} - {cep.uf}</span>
         </div>
       </div>
-
     </div>
   );
 }
