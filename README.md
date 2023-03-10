@@ -7,6 +7,8 @@ Para iniciar o projeto, insira o comando na pasta raiz do arquivo:
 O projeto iniciará no seguinte endereço.\
 Abra [http://localhost:3000](http://localhost:3000) para visualizar o navegador.
 
+Deploy: https://buscador-cep-roan-delta.vercel.app/
+
 ## Techs
 
 React, NodeJs, Axios, API Via Cep.
